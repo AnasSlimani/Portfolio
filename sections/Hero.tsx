@@ -7,6 +7,15 @@ export const Hero: React.FC = () => {
     const ref = useRef<HTMLDivElement>(null);
     const isVisible = useOnScreen(ref, { threshold: 0.3 });
 
+    const handleDownloadResume = () => {
+        const link = document.createElement('a');
+        link.href = '/resume.pdf'; // Change this to your resume filename
+        link.download = 'Anas_Slimani_Resume.pdf'; // Name for downloaded file
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <section id="home" ref={ref} className="min-h-screen flex items-center justify-center py-20">
             <div className={`container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -26,6 +35,12 @@ export const Hero: React.FC = () => {
                         <a href="#projects" className="bg-slate-700 text-white font-semibold px-6 py-3 rounded-md hover:bg-slate-600 transition-colors duration-300">
                             View My Work
                         </a>
+                        <button 
+                            onClick={handleDownloadResume}
+                            className="bg-slate-700 text-white font-semibold px-6 py-3 rounded-md hover:bg-slate-600 transition-colors duration-300 cursor-pointer"
+                        >
+                            Download Resume
+                        </button>
                     </div>
                 </div>
                 <div className="md:w-1/3 mt-10 md:mt-0">
