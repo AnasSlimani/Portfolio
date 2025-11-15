@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
 
     const handleDownloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/resume.pdf'; // Change this to your resume filename
+        link.href = '/Anas_Slimani_Resume.pdf'; // Change this to your resume filename
         link.download = 'Anas_Slimani_Resume.pdf'; // Name for downloaded file
         document.body.appendChild(link);
         link.click();
