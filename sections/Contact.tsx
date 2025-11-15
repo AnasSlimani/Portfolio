@@ -39,7 +39,7 @@ export const Contact: React.FC = () => {
                     <LinkedinIcon className="w-8 h-8" />
                 </a>
             </div>
-            <p className="mt-12 text-slate-500">&copy; {new Date().getFullYear()} Nizar Fikhane. All rights reserved.</p>
+            <p className="mt-12 text-slate-500">&copy; {new Date().getFullYear()} Anas Slimani. All rights reserved.</p>
         </div>
     </footer>
   );
