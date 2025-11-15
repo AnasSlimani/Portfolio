@@ -154,7 +154,7 @@ export const technologies: Technology[] = [
   { 
     name: 'Keycloak', 
     description: 'Open-source identity and access management solution with SSO capabilities.', 
-    icon: 'https://www.svgrepo.com/show/354048/keycloak.svg' 
+    icon: 'https://www.keycloak.org/resources/images/logo.svg' 
   },
 
   // Qualité & Testing
