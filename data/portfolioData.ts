@@ -1,8 +1,6 @@
 
 import { Technology, Project, ExperienceItem } from '../types';
 import medical from '../assets/images/prj/medical.png';
-import cartox from '../assets/images/prj/cartox.png';
-import attendance from '../assets/images/prj/Attendance.png';
 import k8s from '../assets/images/prj/k8s.png';
 import kubernets from '../assets/images/icons/kubernets.svg';
 import mysql from '../assets/images/icons/mysql-logo-pure.svg';
