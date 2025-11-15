@@ -20,7 +20,7 @@ export const technologies: Technology[] = [
   { 
     name: 'JavaScript', 
     description: 'Dynamic language for building interactive web applications and modern UIs.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg' 
+    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' 
   },
   { 
     name: 'TypeScript', 
@@ -35,7 +35,7 @@ export const technologies: Technology[] = [
   { 
     name: 'PHP', 
     description: 'Server-side scripting language for dynamic web applications.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/php-1.svg' 
+    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg'
   },
   
 
@@ -154,7 +154,7 @@ export const technologies: Technology[] = [
   { 
     name: 'Keycloak', 
     description: 'Open-source identity and access management solution with SSO capabilities.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/keycloak.svg' 
+    icon: 'https://www.svgrepo.com/show/354048/keycloak.svg' 
   },
 
   // Qualité & Testing
@@ -168,7 +168,7 @@ export const technologies: Technology[] = [
   { 
     name: 'MyBatis', 
     description: 'Java persistence framework for custom SQL, stored procedures, and advanced mappings.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/mybatis.svg' 
+    icon: 'https://mybatis.org/images/mybatis-logo.png' 
   }
 ];
 
