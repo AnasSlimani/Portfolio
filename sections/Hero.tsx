@@ -1,7 +1,7 @@
 
 import React, { useRef } from 'react';
 import { useOnScreen } from '../hooks/useOnScreen';
-import profil from '../assets/images/profil.png';
+import profil from '../assets/images/profil.jpg';
 
 export const Hero: React.FC = () => {
     const ref = useRef<HTMLDivElement>(null);
