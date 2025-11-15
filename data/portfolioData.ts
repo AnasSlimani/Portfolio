@@ -37,11 +37,7 @@ export const technologies: Technology[] = [
     description: 'Server-side scripting language for dynamic web applications.', 
     icon: 'https://cdn.worldvectorlogo.com/logos/php-1.svg' 
   },
-  { 
-    name: 'C', 
-    description: 'Low-level programming language for system programming and embedded systems.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/c-1.svg' 
-  },
+  
 
   // Frameworks Backend
   { 
@@ -49,11 +45,7 @@ export const technologies: Technology[] = [
     description: 'Java-based framework for creating microservices and enterprise web applications.', 
     icon: 'https://cdn.worldvectorlogo.com/logos/spring-3.svg' 
   },
-  { 
-    name: 'Node.js', 
-    description: 'JavaScript runtime for building scalable back-end services and APIs.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg' 
-  },
+  
 
   // Frameworks Frontend
   { 
@@ -177,12 +169,7 @@ export const technologies: Technology[] = [
     name: 'MyBatis', 
     description: 'Java persistence framework for custom SQL, stored procedures, and advanced mappings.', 
     icon: 'https://cdn.worldvectorlogo.com/logos/mybatis.svg' 
-  },
-  { 
-    name: 'Maven', 
-    description: 'Build automation and dependency management tool for Java projects.', 
-    icon: 'https://cdn.worldvectorlogo.com/logos/maven-apache.svg' 
-  },
+  }
 ];
 
 export const projects: Project[] = [
